@@ -1,6 +1,6 @@
 import { ListModel } from './list-model';
-import { model, Schema } from "mongoose";
-import Document from "mongoose";
+import {Document, model, Schema } from "mongoose";
+
 
 // 1. Model Interface describing the data in the model:
 export interface ITaskModel extends Document {
