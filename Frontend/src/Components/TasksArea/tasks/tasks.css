@@ -1,0 +1,46 @@
+/* .Tasks h2 {
+    font-family: "Bellota", cursive;
+ } */
+.Tasks .Back {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.Tasks .DelList {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.Tasks .TaskLine {
+    background-color: rgb(17, 18, 87);
+    border-radius: 8px;
+    display: flex;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.TaskLine .Checkbox {
+    margin-left: 5%;
+    color: rgb(255, 255, 255)
+}
+
+.TaskLine p {
+    flex-grow: 2;
+}
+
+.Add>IconButton {
+    position: relative;
+    margin-right: -60%;
+    margin-top: 4%;
+}
+
+.Tasks > p:first-of-type {
+    color: rgb(223, 33, 252);
+}

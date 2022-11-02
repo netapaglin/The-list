@@ -1,0 +1,59 @@
+h1 {
+   font-family: "Bellota", cursive;
+}
+
+/* .Home>Button {
+   position: fixed;
+   margin-left: 50px;
+   margin-bottom: 5px;
+} */
+/* .Home .Add {
+   background-color: aqua;
+   position: relative;
+  
+} */
+
+.Add >Button{
+   position: relative;
+   margin-right: -60%;
+}
+
+.Home .listName {
+   /* background-color: antiquewhite; */
+   width: 70%;
+   margin: auto;
+   margin-top: 3%;
+
+   height: 50px;
+   position: relative;
+}
+
+.Home .listName>.percent {
+   display: inline-block;
+   /* background-color: rgb(210, 132, 30); */
+   margin-left: -50%;
+   width: 15%;
+   height: 100%;
+
+
+   position: absolute;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+.Home .listName>Button {
+   display: inline-block;
+   margin-right: 0px;
+   margin-left: 15px;
+   width: 75%;
+   height: 100%;
+
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   /* -ms-transform: translate(-50%,-70%); */
+   transform: translate(-40%, -50%);
+
+   font-size: small;
+}

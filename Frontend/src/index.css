@@ -1,0 +1,34 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* background-image: linear-gradient(lightblue, blue); */
+    font-size: large;
+    
+    font-family: "Cabin", sans-serif; 
+    color: rgb(255, 255, 255);
+    background-color: rgba(60, 88, 171);
+}
+
+a {
+    color: blue;
+}
+
+select, input {
+    font-size: large;
+}
+
+.form Button{
+    background-color: rgb(17, 18, 87);
+    width: 50%;
+ }
+
+ form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+

@@ -1,0 +1,24 @@
+.PerDone {
+    font-size: small;
+    /* background-color: rgb(84, 210, 30); */
+    height: 80%;
+    margin-top: 10%;
+    position: relative;
+    margin-left: 15%;
+    
+}
+
+.PerDone > .Number {
+    font-size:large;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(223, 33, 252);
+}
+
+.PerDone > .Done {
+    font-size: small;
+    position: absolute;
+    margin-top: 20px;
+    color: rgb(223, 33, 252);
+ 
+}
